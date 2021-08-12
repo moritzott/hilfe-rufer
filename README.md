@@ -1,0 +1,2 @@
+# hilfe-rufer
+Mit dem Hilfe-Rufer können Sie sich in Notsituation akustisch bemerkbar machen. Er kann für Sie um Hilfe rufen.
