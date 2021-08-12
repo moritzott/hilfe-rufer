@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="Mit dem Hilfe-Rufer können Sie sich in Notsituation akustisch bemerkbar machen. 
+            Er kann für Sie um Hilfe rufen.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#673ab7">
+        <link rel="stylesheet" href="./css/w3.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+        <link rel="manifest" href="./manifest.json">
+    </head>
+    <body class="w3-content w3-deep-purple">
+
+        <!--  B e g i n n i n g   o f   t h e   p a g e  -->
+        <div class="w3-container">
+            <div id="editSettingsButton" class="w3-container w3-right w3-xlarge w3-margin">
+                <span>&#9776;</span>
+            </div>
+
+            <!--  S e t t i n g  M o d a l  -->
+
+            <div id="settingsModal" class="w3-modal">
+                <div class="w3-container w3-modal-content w3-center w3-deep-purple">
+                    <header>
+                        <h2 class="">Einstellungen</h2> 
+                    </header>                   
+                    <form action="">
+                        <label for="sex">Geschlecht:</label>
+                        <select name="sex" id="sexSelect" class="w3-select w3-deep-purple">
+                            <option value="male" class="w3-deep-purple">Mann</option>
+                            <option value="female" class="w3-deep-purple">Frau</option>
+                        </select>
+                    </form>
+                    <button id="confirmSettingsButton" class="w3-btn w3-border w3-margin w3-round-large">OK</button>
+                </div>
+            </div>
+
+            <!--   H e a d i n g  -->
+
+            <div class="w3-container w3-center w3-jumbo">
+                <h1>Hilfe-Rufer</h1>
+            </div>
+
+            <!--  S t a r t   B u t t o n  -->
+
+            <div class="w3-container w3-center w3-margin">
+                <button id="actionButton" class="w3-btn w3-mobile w3-deep-purple w3-border w3-large w3-round-large">START</button>
+            </div>
+
+            <!--  I n f o   M o d a l  -->
+            <div id="infoModal" class="w3-modal">
+                <div class="w3-container w3-modal-content w3-deep-purple w3-center">
+                    <button id="confirmInfoButton" class="w3-btn w3-xlarge w3-display-topright">&larr;</button>
+                    <header>
+                        <h2 class="">Informationen</h2>
+                    </header>
+                    <h3>Über das Projekt</h3>
+                    <p>Stellen Sie sich vor: Sind Sie in einer Notsituation und müssen laut um Hilfe rufen.
+                        Doch Sie können nicht laut schreien, weil Sie Verletzungen haben,
+                        die ein lautes Rufen unmöglich oder nur für eine kurze Zeit möglich machen.
+                        Dann ist der <strong>Hilfe-Rufer</strong> genau das Richtige für Sie.
+                        Der <strong>Hilfe-Rufer</strong> kann für Sie laut um Hilfe rufen und sich akustisch bemerkbar machen.
+                        Im Einstellungsmenü (&#9776;) können Sie eine Frauen- oder Männerstimme
+                        auswählen, die um Hilfe rufen soll. Einmal gestartet ruft die App 
+                        solange um Hilfe, bis jemand auf den Start/Stop-Schalter drückt.
+                        Die App kann also auch über eine längere Zeit für Sie um Hilfe rufen,
+                        sollten Sie selbst keine Kraft mehr haben um selbst weiter zu rufen.
+                    </p>
+                    <p>Die App ist sehr einfach gehalten. Machen Sie sich trotzdem kurz mit 
+                        den Funktionen vertraut (Start/Stop-Schalter, Einstellung der Stimme).
+                    </p>
+                    <h3>Installation</h3>
+                    <p>Bei der App handelt es sich um eine progressive Web-App.
+                        Sie wird initial in Ihrem Browser (Chrome, Firefox, usw.) geöffnet.
+                        Danach haben Sie die Möglichkeit die App auf ihrem Gerät zu installieren.
+                        Klicken Sie oben rechts in ihrem Browser auf die drei vertikalen Punkte und
+                        wählen dann im Menü die Option <em>Zum Startbildschirm hinzufügen</em>.
+                        Ein Service Worker ladet die erforderlichen Dateien im Hintergrund herunter,
+                        sodass Sie die App auch nutzen können, wenn Sie keine Internet-Verbindung haben.
+                    </p>
+                    <p>Eine ausführliche Projektbeschreibung können Sie auf der <a href="https://github.com/moritzott/hilfe-rufer">Repositoriumsseite (github)</a> sehen.
+                    </p>
+                    <h3>Kontakt</h3>
+                    <p>Der <strong>Hilfe-Rufer</strong> ist ein privates Projekt, dass ich im August
+                        2021 begonnen habe. Ziel war eine leicht zu bedienende Anwendung,
+                        mit der ich akustisch um Hilfe rufen kann, wenn ich nicht in der Lage bin
+                        dies selbst zu tun.
+                    </p>
+                    <p>Wenn Sie Fehler entdecken, neue Funktionen vorschlagen möchten oder
+                        einfach nur "Hallo" sagen wollen, können Sie mich kontaktieren:
+                    </p>
+                    <img src="./images/mail-contact.png" alt="mail-kontakt" width="250px" class="w3-center">
+                    <p>Falls Sie mir eine Postkarte senden wollen:</p>
+                    <img src="./images/post-contact.png" alt="post-kontakt" width="150px" class="w3-center">
+                    <h3>Unterstützen</h3>
+                    <p>Sie können mich und das Projekt unterstützen. Momentan gibt es drei Möglichkeiten dafür:
+                        Per Banküberweisung, <a href="https://www.paypal.com/paypalme/moritzbenjaminott">PayPal</a> oder Sie können mir einen <a href="https://www.buymeacoffee.com/moritzott">Kaffee spendieren</a>.
+                        Wenn Sie eine Banküberweisung bevorzugen, kontaktieren Sie mich über die obige Mailadresse.
+                        Ich werde Ihnen dann die nötigen Bankdaten (IBAN usw.) zusenden.
+                    </p>
+                    <p>Vielen Dank!</p>
+                    <h3>Version</h3>
+                    <p>Hilfe-Rufer v1.0-pre-alpha</p>
+                    <h3>Lizenz</h3>
+                    <p>Für die Icons wurde die Schriftart <i>Open Sans</i> verwendet,
+                    die unter einer anderen Lizenz steht. Deswegen muss ich hier eine entsprechende Information kundtun:
+                    </p>
+                    <p>Name der benutzen Komponente: Open Sans</p>
+                    <p>Lizenzgeber: Google</p>
+                    <p>Lizenz: <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0</a></p>
+                    <h3>Datenschutz</h3>
+                    <p>Die App sammelt keinerlei Informationen. Lediglich die Wahl von Männerstimme/Frauenstimme wird
+                        im lokalen Zwischenspeicher Ihres Browsers gespeichert, damit Sie beim nächsten Start bereits
+                        die richtigen Einstellungen vorfinden. Persönliche Daten und Informationen werden nicht erhoben und
+                        nicht gespeichert (wie gesagt, es ist ein privates Projekt und da habe ich kein Interesse an gesammelten Daten).
+                    </p>
+                    <h3>Garantie</h3>
+                    <p>Da es sich um ein privates Projekt handelt, kann ich Ihnen keine Garantie geben, dass die 
+                        Anwendung auf Ihrem Gerät funktioniert.
+                    </p>
+                    <h3>Externe Links</h3>
+                    <p>Die Inhalte dieser Anwendung wurden mit großer Sorgfalt und bestem Gewissen des Entwicklers
+                        erstellt. Momentan sind in der Anwendung vier Hyperlinks (Repositorium auf Github, PayPal, Buy me a coffee und Apache 2.0- Lizenz).
+                        Ich habe keinerlei Einfluss auf den Inhalt dieser Webseiten (mit Ausnahme der Repo-Seite).
+                        Für illegale, fehlerhafte oder unvollständige Inhalte und insbesondere für Schäden, die aus der Nutzung  
+                        solcherart dargebotener Informationen entstehen, haftet allein der Anbieter der Seite, auf welche verwiesen wurde.  
+                        Erhalte ich Kenntnis von rechtswidrigen Inhalten auf diesen verlinkten Seiten, werde ich entsprechende Links löschen.
+                    </p>
+                    <button id="confirmInfoButtonBottom" class="w3-btn w3-deep-purple w3-border w3-round-large w3-margin">OK</button>
+
+                </div>
+            </div>
+
+            <!-- Open Info Modal Button -->
+
+            <div id="showInfoButton" class="w3-container w3-right w3-xlarge w3-margin">
+                <span>&#9432;</span>
+            </div>
+        </div>
+        <script src="./js/app.js" async defer></script>
+    </body>
+</html>

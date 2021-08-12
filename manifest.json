@@ -1,0 +1,30 @@
+{
+    "name": "Hilfe-Rufer DE",
+    "short_name": "Hilfe-Rufer",
+    "description": "Mit dem Hilfe-Rufer können Sie sich akustisch in Notsituationen bemerkbar machen. Er kann mit einer Frauen- und Männerstimme um Hilfe rufen.",
+    "start_url": ".",
+    "background_color": "#673ab7",
+    "theme_color": "#673ab7",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+
+        {
+            "src": "/maskable_icon.png",
+            "sizes" : "192x192",
+            "type" : "image/png",
+            "purpose": "any maskable"
+        }
+
+    ]
+}
