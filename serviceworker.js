@@ -1,4 +1,4 @@
-const cacheName = 'v1'; // version 1
+const cacheName = 'v1.0-pre-alpha'; // version 1
 
 // variable of assets:
 const cacheAssets = [
@@ -47,8 +47,8 @@ self.addEventListener('activate', (event) => {
     console.log('ServiceWorker activated.');
     // remove unwanted caches
     event.waitUntil(
-        // loop thru the caches with condition if the current files are not like the files in te cache : delete
-        // gives a promise:
+        // loop thru the caches with condition if the current files are not like the files in the cache : delete
+        // gives a promise back:
         caches.keys().then(cacheNames => {
             return Promise.all(
                 cacheNames.map(cache => {
