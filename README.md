@@ -29,10 +29,10 @@ In Notsituationen haben die manche Menschen nicht die Kraft und das Lungenvolume
 
 Der *Hilfe-Rufer* ist ein privates Projekt, dass ich im August 2021 begonnen habe. Ziel war eine leicht zu bedienende Anwendung, mit der ich akustisch um Hilfe rufen kann, wenn ich nicht in der Lage bin dies selbst zu tun.
 
-## Live-Demo:
+## Live-Demo
 * [Hilfe-Rufer](https://moritzott.github.io/hilfe-rufer/)
 
-## Anforderung
+## Anforderungen
 * Die App muss offline funktionieren, da man auch in Gebieten sein kann, wo kein mobiles Internet oder Telefonnetz funktioniert.
 
 * Es muss deutlich in der Beschreibung der App sein, dass die App nicht die Polizei oder Rettungskräfte per Telefon zu Hilfe ruft. Manche Leute könnten den Ausdruck ('Um Hilfe rufen') missverstehen. Diese Anwendung möchte akustisch um Hilfe rufen, nicht einen Telefonanruf bei der Polizei absetzen.
