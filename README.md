@@ -59,7 +59,7 @@ Wenn Sie die App nicht installieren möchten, können oder sonstige Fehler auftr
 ## Weiterentwicklung
 * [ ] Momentan gibt es die Anwendung nur in deutscher Sprache. Eine internationale Version mit der Menusprache in Englisch wäre das nächste Ziel. Man kann dann auch diverse Sprachen für die Hilfe-Rufe einstellen (in seiner jeweiligen Landessprache).
 * [ ] Die Klangdateien sollten noch weiter optimiert werden. Vielleicht für die Männerstimme eine tiefere Stimme finden. Die Klangdateien müssen einen lauten Pegel haben 
-* [ ] Eine native Android-App ist parallel in Planung, da Servie-Worker manchmal etwas tückisch sein könnten. Im schlimmsten Fall wären dann offline die Audiodateien nicht verfügbar. Das **darf** nicht eintreten.
+* [ ] Eine native Android-App ist parallel in Planung, da Service-Worker manchmal etwas tückisch sein könnten. Im schlimmsten Fall wären dann offline die Audiodateien nicht verfügbar. Das **darf** nicht eintreten.
 
 ## Version
 Aktuelle Version ist:
