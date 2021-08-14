@@ -12,7 +12,7 @@ andere Personen einen finden und auf die Rufe
 aufmerksam werden. Es könnte dabei der unglückliche Fall eintreten,
 dass man physisch selbst nicht um Hilfe rufen kann. Das
 kann der Fall sein bei Gesichtslähmungen, bei Verletzungen des
-Hals-Nase-Rachen-Raumes, des Brustkorbs oder bei einer ungünstigen
+Hals-Nasen-Rachen-Raumes, des Brustkorbs oder bei einer ungünstigen
 Körperhaltung, sodass nicht der volle Einsatz
 des Brustkorbes zum Einsatz kommen kann und der Hilferuf
 leiser ist als sonst. Viele Menschen haben auch
