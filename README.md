@@ -38,28 +38,32 @@ Der *Hilfe-Rufer* ist ein privates Projekt, dass ich im August 2021 begonnen hab
 * Es muss deutlich in der Beschreibung der App sein, dass die App nicht die Polizei oder Rettungskräfte per Telefon zu Hilfe ruft. Manche Leute könnten den Ausdruck ('Um Hilfe rufen') missverstehen. Diese Anwendung möchte akustisch um Hilfe rufen, nicht einen Telefonanruf bei der Polizei absetzen.
 
 ## Installation
+### Android
+Die Hilfe-Rufer-App gibt es noch nicht im Play Store. Dennoch können Sie sie schon installieren:
+Laden Sie die signierte APK-Datei über meinen [Google-Drive-Ordner](https://drive.google.com/file/d/12W08eBiSvX9oZrMx4XHLIp25bKeowDvO/view?usp=sharing) herunter.
+Eventuell müssen Sie in den Systemeinstellungen erst die Funktion freischalten, dass Sie auch von externen Quellen (außerhalb des PlayStore) Android Apps installieren können.
 
-Bei der App handelt es sich um eine progressive Web-App (PWA). Sie wird initial in Ihrem Browser (Chrome, Firefox, usw.) über die [Live-Demo](https://moritzott.github.io/hilfe-rufer/) geöffnet. Danach haben Sie die Möglichkeit die Anwendung auf ihrem Gerät zu installieren. Klicken Sie oben rechts in ihrem Browser auf die drei vertikalen Punkte und wählen dann im Menü die Option *Zum Startbildschirm hinzufügen*. Ein Service Worker lädt die erforderlichen Dateien im Hintergrund herunter, sodass Sie die App auch nutzen können sollten, wenn Sie keine Internet-Verbindung haben. Eventuell bekommen Sie je nach verwendeten Browser auch schon vorgeschlagen, dass Sie die App installieren können.
+#### Minimum Anforderungen
+* API 16: Android 4.1 (Jelly Beans)
 
-**Wichtig:** Testen Sie die Anwendung und machen Sie sich mit den Funktionen vertraut! Vor allem sollten Sie testen, ob die Anwendung auch ohne Internet funktioniert oder ob es zu  Fehlern kommt.
-
-Wenn Sie die App nicht installieren möchten, können oder sonstige Fehler auftreten, gibt es auch eine einfache Lösung:
+### iOS und Sonstige
+Wenn Sie die App nicht installieren möchten, können (es gibt keine iOS Version) oder sonstige Fehler auftreten, gibt es auch eine einfache Lösung:
 
 * Klangdatei einfach herunterladen (sie finden diese oben im Audio-Ordner => 'male.mp3' oder 'female.mp3')
-* in ihren Download-Ordner gehen und die heruntergeladene Datei suchen
+* in Ihren Download-Ordner gehen und die heruntergeladene Datei suchen
 * auf die Datei lange draufdrücken
 * einen Link auf den Startbildschirm erstellen
 * zum Startbildschirm wechseln und einmal auf den Link drücken
 * der Audio-Player spielt die Datei ab
 * **nicht vergessen:** beim Audio-Player die Option *Loop* oder *Schleifen* aktivieren, damit die Klangdatei in einer Schleife ständig wiederholt wird
 
-## Größe der Anwendung
-- ca. 917 kB
+## Größe der Anwendung (Android)
+- weniger als 10 MB
 
 ## Weiterentwicklung
 * [ ] Momentan gibt es die Anwendung nur in deutscher Sprache. Eine internationale Version mit der Menusprache in Englisch wäre das nächste Ziel. Man kann dann auch diverse Sprachen für die Hilfe-Rufe einstellen (in seiner jeweiligen Landessprache).
 * [ ] Die Klangdateien sollten noch weiter optimiert werden. Vielleicht für die Männerstimme eine tiefere Stimme finden. Die Klangdateien müssen einen lauten Pegel haben 
-* [ ] Eine native Android-App ist parallel in Planung, da Service-Worker manchmal etwas tückisch sein könnten. Im schlimmsten Fall wären dann offline die Audiodateien nicht verfügbar. Das **darf** nicht eintreten.
+
 
 ## Version
 Aktuelle Version ist:
