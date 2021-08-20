@@ -3,12 +3,13 @@ const cacheName = 'v1.0-pre-alpha'; // version 1
 // variable of assets:
 const cacheAssets = [
     'index.html',
-    '/css/w3.css',
-    '/css/style.css',
-    '/js/app.js',
-    '/audio/male.mp3',
-    '/audio/female.mp3',
-    '/images/mail-contact.png',
+    './css/w3.css',
+    './css/style.css',
+    './js/app.js',
+    'serviceworker.js'.
+    './audio/male.mp3',
+    './audio/female.mp3',
+    './images/mail-contact.png',
     'android-chrome-192x192.png',
     'android-chrome-512x512.png',
     'apple-touch-icon.png',
