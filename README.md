@@ -40,8 +40,9 @@ Der *Hilfe-Rufer* ist ein privates Projekt, dass ich im August 2021 begonnen hab
 ## Installation
 ### Android
 Die Hilfe-Rufer-App gibt es noch nicht im Play Store. Dennoch können Sie sie schon installieren:
-Laden Sie die signierte APK-Datei über meinen [Google-Drive-Ordner](https://drive.google.com/file/d/12W08eBiSvX9oZrMx4XHLIp25bKeowDvO/view?usp=sharing) herunter.
-Eventuell müssen Sie in den Systemeinstellungen erst die Funktion freischalten, dass Sie auch von externen Quellen (außerhalb des PlayStore) Android Apps installieren können.
+1. Laden Sie die signierte APK-Datei über meinen [Google-Drive-Ordner](https://drive.google.com/file/d/12W08eBiSvX9oZrMx4XHLIp25bKeowDvO/view?usp=sharing) herunter.
+2. Eventuell müssen Sie in den Systemeinstellungen erst die Funktion freischalten, dass Sie auch von externen Quellen (außerhalb des PlayStore) Android Apps installieren können.
+3. Gehen Sie in Ihren Donwload-Ordner und klicken Sie auf die heruntergeladene APK-Datei und wählen Sie 'installieren'.
 
 #### Minimum Anforderungen
 * API 16: Android 4.1 (Jelly Beans)
