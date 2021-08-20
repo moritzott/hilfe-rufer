@@ -6,7 +6,7 @@ const cacheAssets = [
     './css/w3.css',
     './css/style.css',
     './js/app.js',
-    'serviceworker.js'.
+    'serviceworker.js',
     './audio/male.mp3',
     './audio/female.mp3',
     './images/mail-contact.png',
