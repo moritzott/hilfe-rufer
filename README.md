@@ -54,7 +54,7 @@ Wenn Sie die App nicht installieren möchten, können (es gibt keine iOS Version
 * **nicht vergessen:** beim Audio-Player die Option *Loop* oder *Schleifen* aktivieren, damit die Klangdatei in einer Schleife ständig wiederholt wird
 
 ## Größe der Anwendung (Android)
-- weniger als 10 MB
+- ca. 13,26 MB
 
 ## Weiterentwicklung
 * [ ] Momentan gibt es die Anwendung nur in deutscher Sprache. Eine internationale Version mit der Menusprache in Englisch wäre das nächste Ziel. Man kann dann auch diverse Sprachen für die Hilfe-Rufe einstellen (in seiner jeweiligen Landessprache).
