@@ -32,11 +32,6 @@ Der *Hilfe-Rufer* ist ein privates Projekt, dass ich im August 2021 begonnen hab
 ## Live-Demo
 * [Hilfe-Rufer](https://moritzott.github.io/hilfe-rufer/)
 
-## Anforderungen
-* Die App muss offline funktionieren, da man auch in Gebieten sein kann, wo kein mobiles Internet oder Telefonnetz funktioniert.
-
-* Es muss deutlich in der Beschreibung der App sein, dass die App nicht die Polizei oder Rettungskräfte per Telefon zu Hilfe ruft. Manche Leute könnten den Ausdruck ('Um Hilfe rufen') missverstehen. Diese Anwendung möchte akustisch um Hilfe rufen, nicht einen Telefonanruf bei der Polizei absetzen.
-
 ## Installation
 ### Android
 Die Hilfe-Rufer-App gibt es noch nicht im Play Store. Dennoch können Sie sie schon installieren:
