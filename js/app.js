@@ -94,23 +94,9 @@ function readLocalStoreIfExists(){
     }
 }
 
-function registerServiceWorker(){
-    console.log('Enter function registerServiceWorker() ...');
-    // Make sure service worker are supported
-    if ('serviceWorker' in navigator){
-        navigator.serviceWorker
-            //.register('./../serviceworker.js')
-            .register('/hilfe-rufer/serviceworker.js', {scope: '/hilfe-rufer/'})
-            //.register('https://moritzott.github.io/hilfe-rufer/serviceworker.js')
-            .then(registrationObject => console.log('ServiceWorker registered.'))
-            .catch(error => console.log(`ServiceWorker Error: ${error}`))
-    } else {
-        console.log('ServiceWorker not supported nor registered.');
-    }
-}
 
 
 window.addEventListener('load', addHandler);
 window.addEventListener('load', readLocalStoreIfExists);
-window.addEventListener('load', registerServiceWorker);
+
 
